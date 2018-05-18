@@ -1,0 +1,34 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150931"
+    android:orientation="vertical"
+    tools:context="com.raman.rupanshu.kbc.Credits">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+    <TextView
+        android:id="@+id/tv_credits"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/credits_text"
+        android:textColor="#F6BB63"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_credits_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="true"
+        android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
